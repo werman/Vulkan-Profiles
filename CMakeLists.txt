@@ -219,7 +219,7 @@ if(FATAL_WARNINGS)
     #    warning C4305: '=': truncation from 'double' to 'float'
         add_compile_options(/wd4100 /wd4505 /wd4702 /wd4389 /wd4245 /wd4305 /wd4018)
     else()
-        add_compile_options(-Werror)
+	    #add_compile_options(-Werror)
     endif()
 endif()
 
